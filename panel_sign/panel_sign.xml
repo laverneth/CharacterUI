@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="13" version="1.1" version_name="Godot Engine v1.1.beta1.custom_build">
+	<ext_resource path="res://panel_sign/do_talk.png" type="Texture"></ext_resource>
+	<ext_resource path="res://panel_sign/panel_sign.gd" type="Script"></ext_resource>
+	<ext_resource path="res://panel_sign/panel.png" type="Texture"></ext_resource>
+	<resource type="RectangleShape2D" path="local://1">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2 name="extents"> 100, 150 </vector2>
+
+	</resource>
+	<resource type="StyleBoxEmpty" path="local://2">
+		<real name="content_margin/left"> -1 </real>
+		<real name="content_margin/right"> -1 </real>
+		<real name="content_margin/top"> -1 </real>
+		<real name="content_margin/bottom"> -1 </real>
+
+	</resource>
+	<resource type="StyleBoxEmpty" path="local://3">
+		<real name="content_margin/left"> -1 </real>
+		<real name="content_margin/right"> -1 </real>
+		<real name="content_margin/top"> -1 </real>
+		<real name="content_margin/bottom"> -1 </real>
+
+	</resource>
+	<resource type="StyleBoxEmpty" path="local://4">
+		<real name="content_margin/left"> -1 </real>
+		<real name="content_margin/right"> -1 </real>
+		<real name="content_margin/top"> -1 </real>
+		<real name="content_margin/bottom"> -1 </real>
+
+	</resource>
+	<resource type="StyleBoxEmpty" path="local://5">
+		<real name="content_margin/left"> -1 </real>
+		<real name="content_margin/right"> -1 </real>
+		<real name="content_margin/top"> -1 </real>
+		<real name="content_margin/bottom"> -1 </real>
+
+	</resource>
+	<resource type="StyleBoxEmpty" path="local://6">
+		<real name="content_margin/left"> -1 </real>
+		<real name="content_margin/right"> -1 </real>
+		<real name="content_margin/top"> -1 </real>
+		<real name="content_margin/bottom"> -1 </real>
+
+	</resource>
+	<resource type="Animation" path="local://7">
+		<real name="length"> 1 </real>
+		<bool name="loop"> True </bool>
+		<real name="step"> 0.1 </real>
+		<string name="tracks/0/type"> "value" </string>
+		<node_path name="tracks/0/path"> "here sign:transform/scale" </node_path>
+		<int name="tracks/0/interp"> 1 </int>
+		<dictionary name="tracks/0/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "transitions" </string>
+			<real_array  len="3"> 				1, 0.435275, 1 </real_array>
+			<string> "values" </string>
+			<array  len="3" shared="false">
+				<vector2> 1, 1 </vector2>
+				<vector2> 1.5, 1.5 </vector2>
+				<vector2> 1, 1 </vector2>
+			</array>
+			<string> "times" </string>
+			<real_array  len="3"> 				0, 0.5, 1 </real_array>
+		</dictionary>
+
+	</resource>
+	<resource type="Animation" path="local://8">
+		<real name="length"> 1 </real>
+		<bool name="loop"> False </bool>
+		<real name="step"> 0.1 </real>
+		<string name="tracks/0/type"> "value" </string>
+		<node_path name="tracks/0/path"> "here sign:visibility/self_opacity" </node_path>
+		<int name="tracks/0/interp"> 1 </int>
+		<dictionary name="tracks/0/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<real> 1 </real>
+				<real> 0 </real>
+			</array>
+			<string> "times" </string>
+			<real_array  len="2"> 				0, 1 </real_array>
+		</dictionary>
+		<string name="tracks/1/type"> "value" </string>
+		<node_path name="tracks/1/path"> "Label:visibility/self_opacity" </node_path>
+		<int name="tracks/1/interp"> 1 </int>
+		<dictionary name="tracks/1/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<real> 1 </real>
+				<real> 0 </real>
+			</array>
+			<string> "times" </string>
+			<real_array  len="2"> 				0, 1 </real_array>
+		</dictionary>
+
+	</resource>
+	<resource type="Animation" path="local://9">
+		<real name="length"> 1 </real>
+		<bool name="loop"> False </bool>
+		<real name="step"> 0.1 </real>
+		<string name="tracks/0/type"> "value" </string>
+		<node_path name="tracks/0/path"> "here sign:transform/scale" </node_path>
+		<int name="tracks/0/interp"> 1 </int>
+		<dictionary name="tracks/0/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "transitions" </string>
+			<real_array  len="3"> 				1, 1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="3" shared="false">
+				<vector2> 1, 1 </vector2>
+				<vector2> 1.5, 1.5 </vector2>
+				<vector2> 1, 1 </vector2>
+			</array>
+			<string> "times" </string>
+			<real_array  len="3"> 				0, 0.5, 1 </real_array>
+		</dictionary>
+		<string name="tracks/1/type"> "value" </string>
+		<node_path name="tracks/1/path"> "here sign:visibility/self_opacity" </node_path>
+		<int name="tracks/1/interp"> 1 </int>
+		<dictionary name="tracks/1/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<real> 0 </real>
+				<real> 1 </real>
+			</array>
+			<string> "times" </string>
+			<real_array  len="2"> 				0, 1 </real_array>
+		</dictionary>
+		<string name="tracks/2/type"> "value" </string>
+		<node_path name="tracks/2/path"> "Label:visibility/self_opacity" </node_path>
+		<int name="tracks/2/interp"> 1 </int>
+		<dictionary name="tracks/2/keys" shared="false">
+			<string> "cont" </string>
+			<bool> True </bool>
+			<string> "transitions" </string>
+			<real_array  len="2"> 				1, 1 </real_array>
+			<string> "values" </string>
+			<array  len="2" shared="false">
+				<real> 0 </real>
+				<real> 1 </real>
+			</array>
+			<string> "times" </string>
+			<real_array  len="2"> 				0, 1 </real_array>
+		</dictionary>
+
+	</resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "names" </string>
+			<string_array  len="106">
+				<string> "PanelSign" </string>
+				<string> "Area2D" </string>
+				<string> "_import_path" </string>
+				<string> "visibility/visible" </string>
+				<string> "visibility/opacity" </string>
+				<string> "visibility/self_opacity" </string>
+				<string> "visibility/light_mask" </string>
+				<string> "transform/pos" </string>
+				<string> "transform/rot" </string>
+				<string> "transform/scale" </string>
+				<string> "z/z" </string>
+				<string> "z/relative" </string>
+				<string> "input/pickable" </string>
+				<string> "shape_count" </string>
+				<string> "shapes/0/shape" </string>
+				<string> "shapes/0/transform" </string>
+				<string> "shapes/0/trigger" </string>
+				<string> "gravity_point" </string>
+				<string> "gravity_vec" </string>
+				<string> "gravity" </string>
+				<string> "linear_damp" </string>
+				<string> "angular_damp" </string>
+				<string> "monitoring" </string>
+				<string> "monitorable" </string>
+				<string> "script/script" </string>
+				<string> "__meta__" </string>
+				<string> "text" </string>
+				<string> "Button" </string>
+				<string> "margin/left" </string>
+				<string> "margin/top" </string>
+				<string> "margin/right" </string>
+				<string> "margin/bottom" </string>
+				<string> "focus_neighbour/left" </string>
+				<string> "focus_neighbour/top" </string>
+				<string> "focus_neighbour/right" </string>
+				<string> "focus_neighbour/bottom" </string>
+				<string> "focus/ignore_mouse" </string>
+				<string> "focus/stop_mouse" </string>
+				<string> "size_flags/horizontal" </string>
+				<string> "size_flags/vertical" </string>
+				<string> "size_flags/stretch_ratio" </string>
+				<string> "custom_styles/hover" </string>
+				<string> "custom_styles/pressed" </string>
+				<string> "custom_styles/focus" </string>
+				<string> "custom_styles/disabled" </string>
+				<string> "custom_styles/normal" </string>
+				<string> "custom_colors/font_color_disabled" </string>
+				<string> "custom_colors/font_color" </string>
+				<string> "custom_colors/font_color_hover" </string>
+				<string> "custom_colors/font_color_pressed" </string>
+				<string> "disabled" </string>
+				<string> "toggle_mode" </string>
+				<string> "is_pressed" </string>
+				<string> "click_on_press" </string>
+				<string> "icon" </string>
+				<string> "flat" </string>
+				<string> "clip_text" </string>
+				<string> "align" </string>
+				<string> "here sign" </string>
+				<string> "Sprite" </string>
+				<string> "texture" </string>
+				<string> "centered" </string>
+				<string> "offset" </string>
+				<string> "flip_h" </string>
+				<string> "flip_v" </string>
+				<string> "vframes" </string>
+				<string> "hframes" </string>
+				<string> "frame" </string>
+				<string> "modulate" </string>
+				<string> "region" </string>
+				<string> "region_rect" </string>
+				<string> "anim" </string>
+				<string> "AnimationPlayer" </string>
+				<string> "playback/process_mode" </string>
+				<string> "playback/default_blend_time" </string>
+				<string> "root/root" </string>
+				<string> "anims/bounce" </string>
+				<string> "anims/fade_out" </string>
+				<string> "anims/fade_in" </string>
+				<string> "next/fade_in" </string>
+				<string> "playback/active" </string>
+				<string> "playback/speed" </string>
+				<string> "blend_times" </string>
+				<string> "autoplay" </string>
+				<string> "Label" </string>
+				<string> "range/min" </string>
+				<string> "range/max" </string>
+				<string> "range/step" </string>
+				<string> "range/page" </string>
+				<string> "range/value" </string>
+				<string> "range/exp_edit" </string>
+				<string> "rounded_values" </string>
+				<string> "valign" </string>
+				<string> "autowrap" </string>
+				<string> "uppercase" </string>
+				<string> "percent_visible" </string>
+				<string> "CollisionShape2D" </string>
+				<string> "shape" </string>
+				<string> "trigger" </string>
+				<string> "panel" </string>
+				<string> "_on_Read_body_enter" </string>
+				<string> "body_enter" </string>
+				<string> "_on_Read_body_exit" </string>
+				<string> "body_exit" </string>
+				<string> "_on_Button_pressed" </string>
+				<string> "pressed" </string>
+			</string_array>
+			<string> "version" </string>
+			<int> 1 </int>
+			<string> "conn_count" </string>
+			<int> 3 </int>
+			<string> "node_count" </string>
+			<int> 7 </int>
+			<string> "variants" </string>
+			<array  len="51" shared="false">
+				<node_path> "" </node_path>
+				<bool> True </bool>
+				<real> 1 </real>
+				<int> 1 </int>
+				<vector2> 0, 0 </vector2>
+				<real> 0 </real>
+				<vector2> 1, 1 </vector2>
+				<int> 0 </int>
+				<resource  resource_type="Shape2D" path="local://1">  </resource>
+				<matrix32> 1, -0, 0, 1, -8.12253, 75.0665 </matrix32>
+				<bool> False </bool>
+				<vector2> 0, 1 </vector2>
+				<real> 98 </real>
+				<real> 0.1 </real>
+				<resource  resource_type="Script" path="res://panel_sign/panel_sign.gd">  </resource>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_states__" </string>
+					<dictionary  shared="false">
+						<string> "Script" </string>
+						<dictionary  shared="false">
+							<string> "current" </string>
+							<int> 0 </int>
+							<string> "sources" </string>
+							<array  len="1" shared="false">
+								<string> "res://panel_sign/panel_sign.gd" </string>
+							</array>
+						</dictionary>
+						<string> "2D" </string>
+						<dictionary  shared="false">
+							<string> "snap_pixel" </string>
+							<bool> False </bool>
+							<string> "snap_rotation_step" </string>
+							<real> 0.261799 </real>
+							<string> "zoom" </string>
+							<real> 1.850617 </real>
+							<string> "snap_step" </string>
+							<vector2> 10, 10 </vector2>
+							<string> "snap_relative" </string>
+							<bool> False </bool>
+							<string> "snap_grid" </string>
+							<bool> False </bool>
+							<string> "snap_rotation_offset" </string>
+							<real> 0 </real>
+							<string> "snap_show_grid" </string>
+							<bool> False </bool>
+							<string> "snap_offset" </string>
+							<vector2> 0, 0 </vector2>
+							<string> "ofs" </string>
+							<vector2> -153.549, -106.998 </vector2>
+							<string> "snap_rotation" </string>
+							<bool> False </bool>
+						</dictionary>
+						<string> "3D" </string>
+						<dictionary  shared="false">
+							<string> "deflight_rot_y" </string>
+							<real> 0.628319 </real>
+							<string> "zfar" </string>
+							<real> 500 </real>
+							<string> "fov" </string>
+							<real> 45 </real>
+							<string> "viewports" </string>
+							<array  len="4" shared="false">
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+									<string> "listener" </string>
+									<bool> True </bool>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+								</dictionary>
+							</array>
+							<string> "viewport_mode" </string>
+							<int> 1 </int>
+							<string> "default_light" </string>
+							<bool> True </bool>
+							<string> "ambient_light_color" </string>
+							<color> 0.15, 0.15, 0.15, 1 </color>
+							<string> "show_grid" </string>
+							<bool> True </bool>
+							<string> "show_origin" </string>
+							<bool> True </bool>
+							<string> "znear" </string>
+							<real> 0.1 </real>
+							<string> "default_srgb" </string>
+							<bool> False </bool>
+							<string> "deflight_rot_x" </string>
+							<real> 0.942478 </real>
+						</dictionary>
+					</dictionary>
+					<string> "__editor_run_settings__" </string>
+					<dictionary  shared="false">
+						<string> "custom_args" </string>
+						<string> "-l $scene" </string>
+						<string> "run_mode" </string>
+						<int> 0 </int>
+					</dictionary>
+					<string> "__editor_plugin_screen__" </string>
+					<string> "Script" </string>
+				</dictionary>
+				<string> "Castle of Carmaaaaaaaaarghhh" </string>
+				<real> -54 </real>
+				<real> 37 </real>
+				<real> 62 </real>
+				<real> 177 </real>
+				<int> 2 </int>
+				<resource  resource_type="StyleBox" path="local://2">  </resource>
+				<resource  resource_type="StyleBox" path="local://3">  </resource>
+				<resource  resource_type="StyleBox" path="local://4">  </resource>
+				<resource  resource_type="StyleBox" path="local://5">  </resource>
+				<resource  resource_type="StyleBox" path="local://6">  </resource>
+				<color> 0, 0, 0, 0 </color>
+				<string> "" </string>
+				<resource name=""></resource>				<vector2> 12.4527, 15.5196 </vector2>
+				<real> 0.531326 </real>
+				<resource  resource_type="Texture" path="res://panel_sign/do_talk.png">  </resource>
+				<color> 1, 1, 1, 1 </color>
+				<rect2> 0, 0, 0, 0 </rect2>
+				<node_path> ".." </node_path>
+				<resource  resource_type="Animation" path="local://7">  </resource>
+				<resource  resource_type="Animation" path="local://8">  </resource>
+				<resource  resource_type="Animation" path="local://9">  </resource>
+				<string> "bounce" </string>
+				<array  len="0" shared="false">
+				</array>
+				<real> -39 </real>
+				<real> 60 </real>
+				<real> -18 </real>
+				<string> "Read" </string>
+				<real> -1 </real>
+				<vector2> -8.12253, 75.0665 </vector2>
+				<vector2> 5.54016, 105.263 </vector2>
+				<vector2> -1, 1 </vector2>
+				<resource  resource_type="Texture" path="res://panel_sign/panel.png">  </resource>
+				<color> 0, 0, 0, 1 </color>
+			</array>
+			<string> "nodes" </string>
+			<int_array  len="363"> 				-1, -1, 1, 0, -1, 25, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 4, 8, 5, 9, 6, 10, 7, 11, 1, 12, 1, 13, 3, 14, 8, 15, 9, 16, 10, 17, 10, 18, 11, 19, 12, 20, 13, 21, 2, 22, 1, 23, 1, 24, 14, 25, 15, 26, 16, 0, 0, 0, 27, 27, -1, 36, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 28, 17, 29, 18, 30, 19, 31, 20, 32, 0, 33, 0, 34, 0, 35, 0, 36, 10, 37, 1, 38, 21, 39, 21, 40, 2, 41, 22, 42, 23, 43, 24, 44, 25, 45, 26, 46, 27, 47, 27, 48, 27, 49, 27, 50, 10, 51, 10, 52, 10, 53, 10, 26, 28, 54, 29, 55, 10, 56, 10, 57, 3, 0, 0, 0, 59, 58, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 30, 8, 31, 9, 6, 10, 7, 11, 1, 60, 32, 61, 1, 62, 4, 63, 10, 64, 10, 65, 3, 66, 3, 67, 7, 68, 33, 69, 10, 70, 34, 0, 0, 0, 72, 71, -1, 12, 2, 0, 73, 3, 74, 5, 75, 35, 76, 36, 77, 37, 78, 38, 79, 39, 80, 1, 81, 2, 82, 40, 83, 28, 0, 0, 0, 84, 84, -1, 30, 2, 0, 3, 1, 4, 2, 5, 5, 6, 3, 28, 41, 29, 17, 30, 42, 31, 43, 32, 0, 33, 0, 34, 0, 35, 0, 36, 1, 37, 1, 38, 21, 40, 2, 85, 5, 86, 2, 87, 2, 88, 2, 89, 5, 90, 10, 91, 10, 26, 44, 57, 3, 92, 3, 93, 10, 94, 10, 95, 45, 0, 0, 0, 96, 96, -1, 12, 2, 0, 3, 10, 4, 2, 5, 2, 6, 3, 7, 46, 8, 5, 9, 6, 10, 7, 11, 1, 97, 8, 98, 10, 0, 0, 0, 59, 99, -1, 21, 2, 0, 3, 1, 4, 2, 5, 2, 6, 3, 7, 47, 8, 5, 9, 48, 10, 7, 11, 1, 60, 49, 61, 1, 62, 4, 63, 10, 64, 10, 65, 3, 66, 3, 67, 7, 68, 50, 69, 10, 70, 34, 0 </int_array>
+			<string> "conns" </string>
+			<int_array  len="18"> 				0, 0, 101, 100, 2, 0, 0, 0, 103, 102, 2, 0, 1, 0, 105, 104, 2, 0 </int_array>
+		</dictionary>
+
+	</main_resource>
+</resource_file>
